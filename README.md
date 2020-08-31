@@ -1,8 +1,7 @@
-# Week 1 Assignment 1
+# Week 2 Assignment 2
 
-When learning a new programming language, the first example is very often a program to write "Hello, World!"
-This assigment is mostly intended to let you practice with the assignment system, the programming IDE, and the basic print function of python.
+This assignment is meant to let you practice with conditional blocks (i.e. if statements). One of the common uses of conditional blocks is to check the consistency of input values. Often we design functions or programs to only work on specific types or values of input and we want to avoid the program to return random results or to get stuck when the input is not correct.
 
-TASK: Write a program to print on screen the sentence "Hello, World"
+TASK: Write a program that, given an input number, it computes its natural logarithm using the numpy log() function. The program should print a clear message if the input number is not an allowed value of the log() function. 
 
-EXPECTED OUTCOME: "Hello, World"
+EXPECTED OUTCOME: When called with an input of 1, the code should return 0. When called with a value smaller or equal to 0, the code should return a message "The value you entered is not a valid input for the log() function, choose a number greater than 0".
