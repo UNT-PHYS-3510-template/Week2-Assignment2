@@ -4,4 +4,4 @@ This assignment is meant to let you practice with conditional blocks (i.e. if st
 
 TASK: Write a program that, given an input number, it computes its natural logarithm using the numpy log() function. The program should print a clear message if the input number is not an allowed value of the log() function. 
 
-EXPECTED OUTCOME: When called with an input of 1, the code should return 0. When called with a value smaller or equal to 0, the code should return a message "The value you entered is not a valid input for the log() function, choose a number greater than 0".
+EXPECTED OUTCOME: When called with an input of e, the code should return 1. When called with a value smaller or equal to 0, the code should return a message "The value you entered is not a valid input for the log() function, choose a number greater than 0".
